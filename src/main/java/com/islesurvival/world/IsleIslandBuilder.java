@@ -120,7 +120,7 @@ public final class IsleIslandBuilder {
                 for (int dz = -radius; dz <= radius; dz++) {
                     if (Math.abs(dx) == radius && Math.abs(dz) == radius && dy > height - 1) continue;
                     BlockPos leaf = new BlockPos(x + dx, ground + dy, z + dz);
-                    if (level.isEmptyBlock(leaf)) set(level, leaf, Blocks.OAK_LEAVES.defaultBlockState()
+                    if (level.isEmptyBlock(leaf)) setState(level, leaf, Blocks.OAK_LEAVES.defaultBlockState()
                             .setValue(BlockStateProperties.DISTANCE, 1));
                 }
             }
@@ -279,8 +279,12 @@ public final class IsleIslandBuilder {
     }
 
     private static void set(ServerLevel level, BlockPos pos, Block block) {
+        setState(level, pos, block.defaultBlockState());
+    }
+
+    private static void setState(ServerLevel level, BlockPos pos, BlockState state) {
         if (pos.getY() >= level.getMinBuildHeight() && pos.getY() < level.getMaxBuildHeight()) {
-            level.setBlock(pos, block.defaultBlockState(), 2);
+            level.setBlock(pos, state, 2);
         }
     }
 }
