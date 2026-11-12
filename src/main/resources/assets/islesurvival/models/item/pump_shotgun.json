@@ -10,42 +10,11 @@
     "rubber": "islesurvival:item/model_rubber",
     "olive": "islesurvival:item/model_olive",
     "glass": "islesurvival:item/model_glass",
-    "brass": "islesurvival:item/model_brass"
+    "brass": "islesurvival:item/model_brass",
+    "layer0": "islesurvival:item/pump_shotgun"
   },
   "gui_light": "front",
   "elements": [
-    {
-      "from": [
-        0,
-        0,
-        7.25
-      ],
-      "to": [
-        16,
-        16,
-        8.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ],
-          "texture": "#profile"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ],
-          "texture": "#profile"
-        }
-      }
-    },
     {
       "from": [
         0.2,
