@@ -1,0 +1,15 @@
+{
+  "itemGroup.islesurvival": "ISLE: Выживание",
+  "item.islesurvival.hunting_rifle": "Охотничья винтовка",
+  "item.islesurvival.scoped_rifle": "Охотничья винтовка с оптикой",
+  "item.islesurvival.semi_auto_rifle": "Самозарядная винтовка",
+  "item.islesurvival.submachine_gun": "Пистолет-пулемёт",
+  "item.islesurvival.pump_shotgun": "Помповый дробовик",
+  "item.islesurvival.rifle_ammo": "Винтовочные патроны",
+  "item.islesurvival.shotgun_shells": "Патроны для дробовика",
+  "item.islesurvival.medkit": "Аптечка",
+  "item.islesurvival.field_ration": "Сухой паёк",
+  "item.islesurvival.keycard": "Ключ-карта лаборатории",
+  "item.islesurvival.radio_part": "Деталь радиомаяка",
+  "entity.islesurvival.stalker": "Охотник"
+}

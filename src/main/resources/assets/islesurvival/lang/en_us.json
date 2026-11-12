@@ -1,0 +1,15 @@
+{
+  "itemGroup.islesurvival": "ISLE: Survival",
+  "item.islesurvival.hunting_rifle": "Hunting Rifle",
+  "item.islesurvival.scoped_rifle": "Scoped Hunting Rifle",
+  "item.islesurvival.semi_auto_rifle": "Semi-Automatic Rifle",
+  "item.islesurvival.submachine_gun": "Submachine Gun",
+  "item.islesurvival.pump_shotgun": "Pump Shotgun",
+  "item.islesurvival.rifle_ammo": "Rifle Ammunition",
+  "item.islesurvival.shotgun_shells": "Shotgun Shells",
+  "item.islesurvival.medkit": "Medkit",
+  "item.islesurvival.field_ration": "Field Ration",
+  "item.islesurvival.keycard": "Laboratory Keycard",
+  "item.islesurvival.radio_part": "Radio Beacon Part",
+  "entity.islesurvival.stalker": "Stalker"
+}

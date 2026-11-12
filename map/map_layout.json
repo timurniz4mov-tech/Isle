@@ -1,0 +1,13 @@
+{
+  "map_name": "ISLE Survival Island",
+  "minecraft": "1.20.1",
+  "coordinate_origin": "player position when /isle start is executed",
+  "landmarks": [
+    {"name": "Shipwreck cache", "offset": [-51, 0, -20], "type": "starting_loot"},
+    {"name": "Research station", "offset": [32, 0, -24], "type": "laboratory_and_underground_room"},
+    {"name": "Radio tower", "offset": [-8, 0, -57], "type": "landmark"},
+    {"name": "Lighthouse", "offset": [63, 0, -57], "type": "landmark"},
+    {"name": "Evacuation dock", "offset": [64, 0, 45], "type": "future_escape_point"}
+  ],
+  "note": "Relative offsets are approximate build anchors; height is sampled from generated terrain."
+}

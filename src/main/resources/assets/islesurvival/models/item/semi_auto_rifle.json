@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "islesurvival:item/semi_auto_rifle"
+  }
+}
